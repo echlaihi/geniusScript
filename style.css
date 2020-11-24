@@ -39,12 +39,13 @@ main.meditative_page .video_banner_wrap {
 .large_heading h2 {
     text-align: center;
     margin: 0;
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(31, 35, 47);
     letter-spacing: -1px;
     line-height: 1.3em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    margin-bottom: .2rem;
 }
 
 span.blue_text {
