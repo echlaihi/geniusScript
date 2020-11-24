@@ -260,14 +260,6 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1000px) {
-    #section-6 .wrapper h2 {
-        width: 100%;
-        margin-top: 4rem;
-        padding: 0;
-    }
-}
-
 .footerBottom {
     width: 100%;
     padding: 1rem;
