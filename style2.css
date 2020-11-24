@@ -243,11 +243,15 @@
     justify-content: space-between;
 }
 
+#section-6 .wrapper img {
+    width: 50%;
+}
+
 #section-6 .wrapper h2 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 4rem;
-    width: 100%;
+    width: 50%;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -258,6 +262,17 @@
     font-weight: normal;
     font-size: 1.8rem;
     margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    #section-6 .wrapper h2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #section-6 .wrapper img {
+        width: 100%;
+    }
 }
 
 .footerBottom {
