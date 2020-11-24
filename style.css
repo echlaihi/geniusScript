@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+main.meditative_page {
+    position: relative;
+    z-index: 2;
+}
+
+main.meditative_page .video_banner_wrap {
+    background-image: url('images/gradient-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-bottom: 70px;
+}
+
+.container-custom {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.large_heading {
+    max-width: 835px;
+    padding: 0 10px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.large_heading h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    color: rgb(31, 35, 47);
+    letter-spacing: -1px;
+    line-height: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+span.blue_text {
+    color: rgb(71, 175, 250);
+}
+
+.video_wapper {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video_desc_top {
+    margin: 0;
+    color: rgb(83, 90, 93);
+    font-size: 14px;
+}
+
+.video_box {
+    padding: 10px;
+}
+
+.video_box iframe {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video_desc_btm {
+    margin: 0;
+    color: rgb(83, 90, 93);
+    font-size: 16px;
+}
+
+.footerTop {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.footerWidgets {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+}
+
+.footerWidgets .footer-left {
+    padding: 20px 10px;
+    width: 50%;
+}
+
+.footerWidgets .footer-right {
+    padding: 20px 10px;
+    width: 50%;
+}
+
+.footerWidgets .text-wrapper {
+    color: rgb(83, 90, 93);
+    text-align: center;
+}
+
+.footerWidgets .text-wrapper p,
+.footerWidgets .text-wrapper a {
+    margin: 0;
+}
+
+.footerWidgets .text-wrapper a {
+    color: rgb(67, 87, 128);
+    text-decoration: none;
+}
+
+.footerWidgets .text-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.footerBottom {
+    padding: 10px;
+}
+
+.footerBottom p {
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto;
+    line-height: 14px;
+}
+
+.footerBottom p small {
+    font-size: 10px;
+    color: rgb(83, 90, 93);
+}
+
+.footerBottom p a {
+    color: rgb(83, 90, 93);
+    text-decoration: none;
+}
+
+.footerBottom p a:hover {
+    text-decoration: underline;
+}
+
+section.top-badge {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-45deg) translate(-82px, -16px);
+}
+
+section.top-badge img {
+    vertical-align: middle;
+}
+
+.video__overlay {
+    display: none;
+}
+
+.full_size_video .video_box {
+    position: fixed;
+    width: calc(100vw - 0px);
+    height: calc(100vh - 0px);
+    margin-left: -50vw;
+    left: 50%;
+    top: 0;
+    padding: 0;
+}
+
+.full_size_video .video_box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.full_size_video .video__overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.close_video {
+    display: none;
+}
+
+.full_size_video .close_video {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    width: 40px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+body.meditative_page_wrap>.ds24b-with-footer {
+    z-index: 0;
+}
+
+.meditative_page_wrap .ds24b-ribbon {
+    z-index: 1 !important;
+}
+
+@media (max-width: 1199.98px) {
+    section.top-badge {
+        transform: rotate(-45deg) translate(-57px, -18px);
+    }
+    section.top-badge img {
+        width: 200px;
+    }
+    .large_heading h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    section.top-badge {
+        position: static;
+        transform: inherit;
+        text-align: center;
+        padding: 5px 0;
+    }
+    section.top-badge img {
+        width: auto;
+    }
+    .footerWidgets {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerWidgets .footer-left,
+    .footerWidgets .footer-right {
+        width: 100%;
+    }
+}
